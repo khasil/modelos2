@@ -1,0 +1,38 @@
+grammar org.xtext.example.mydsl.MyDsl with org.eclipse.xtext.common.Terminals
+
+generate myDsl "http://www.xtext.org/example/mydsl/MyDsl"
+
+Model:
+    procesos+=Proceso*;
+
+Proceso:
+    'Processor' tipo=TipoProceso '{'
+        (creacion=Creacion | Consulta | Eliminacion)
+    '}';
+
+
+TipoProceso:
+	Maquina | Material
+;
+
+Creacion:
+	'Crear' sustantivo=TipoProceso 
+;
+
+Consulta:
+	'Consultar'
+;
+
+Eliminacion:
+	'Eliminar'
+;
+    
+
+
+Maquina:
+	'Maquina'
+;
+
+Material:
+	'Material'
+;

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 15 resources" deleteContents="true" description="Delete 15 resources" element1="/gramatica.mydsl" element10="/gramaticas.mydsl.ui.tests" element11="/gramtica.mydsl" element12="/gramtica.mydsl.ide" element13="/gramtica.mydsl.tests" element14="/gramtica.mydsl.ui" element15="/gramtica.mydsl.ui.tests" element2="/gramatica.mydsl.ide" element3="/gramatica.mydsl.tests" element4="/gramatica.mydsl.ui" element5="/gramatica.mydsl.ui.tests" element6="/gramaticas.mydsl" element7="/gramaticas.mydsl.ide" element8="/gramaticas.mydsl.tests" element9="/gramaticas.mydsl.ui" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="15" stamp="1711837459702"/>
+</session>
